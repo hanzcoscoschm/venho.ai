@@ -1,0 +1,12 @@
+{
+  "name": "venho-ai-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end testing for Venho.ai website",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
