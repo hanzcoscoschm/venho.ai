@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Command to run tests
-CMD ["npm", "run", "test:headless"]
+CMD ["npm", "run", "test:docker"]

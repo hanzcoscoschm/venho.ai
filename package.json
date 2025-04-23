@@ -4,7 +4,8 @@
   "description": "End-to-end testing for Venho.ai website",
   "scripts": {
     "test": "cypress open",
-    "test:headless": "cypress run"
+    "test:headless": "cypress run",
+    "test:docker": "cypress run --reporter spec --config video=true"
   },
   "devDependencies": {
     "cypress": "^13.6.0"

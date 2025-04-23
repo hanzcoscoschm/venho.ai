@@ -7,5 +7,7 @@ services:
       - /app/node_modules
     environment:
       - CYPRESS_baseUrl=https://www.venho.ai
-      - CYPRESS_VIDEO=false
+      - CYPRESS_VIDEO=true
+      - CYPRESS_reporter=spec
+      - DEBUG=cypress:*
     command: npm run test:headless
